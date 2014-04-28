@@ -26,7 +26,8 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="66dp" />
+        android:layout_marginTop="66dp"
+        android:onClick="streamVideo"/>
 
     <Button
         android:layout_width="match_parent"
@@ -38,6 +39,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="110dp"
         android:layout_alignRight="@+id/streamButton"
-        android:layout_alignEnd="@+id/streamButton" />
+        android:layout_alignEnd="@+id/streamButton"
+        android:onClick="watchVideo"/>
 
 </RelativeLayout>

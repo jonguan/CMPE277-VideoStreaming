@@ -4,9 +4,14 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.util.Log;
+
+import java.io.Console;
 
 
 public class MainActivity extends ActionBarActivity {
+    public static String LOG_HANDLE = "edu.sjsu.VideoStreaming";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,4 +38,13 @@ public class MainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public void streamVideo(View view) {
+        Log.v(LOG_HANDLE, "stream video clicked");
+    }
+
+    public void watchVideo(View view) {
+        Log.v(LOG_HANDLE, "watch video clicked");
+    }
+
 }
