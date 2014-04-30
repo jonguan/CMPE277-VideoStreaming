@@ -4,5 +4,6 @@
     <string name="app_name">CMPE277-VideoStreaming</string>
     <string name="hello_world">Welcome to SJSU WebCast</string>
     <string name="action_settings">Settings</string>
+    <string name="btnCapture">Record</string>
 
 </resources>
